@@ -704,14 +704,16 @@ border-radius: 4px;
         letter-spacing: 0.04em;
         user-select: none;
 }
-.checkbox:checked +.form-agreement-checkbox {
+
+
+.checkbox:checked + .form-agreement > .form-agreement-checkbox {
 background-color: #404BBF;
 border:none;
-fill: #F4F4FD;;
+fill: #F4F4FD;
 }
 
-.checkbox:checked + .form-agreement-checkbox 
-> .form-agreement-icon {
+.checkbox:checked + .form-agreement > .form-agreement-checkbox
+> .form-agreement-icon { 
     opacity: 1;
 
 }
