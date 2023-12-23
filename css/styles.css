@@ -479,6 +479,7 @@ margin-right: 0;
     display: flex;
     align-items: center;
     gap: 24px;
+
 }
 
 .Subscribe-form-field {}
@@ -487,6 +488,11 @@ margin-right: 0;
     width: 264px;
         height: 40px;
         padding: 8px 16px;
+        color: #FFF;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 2;
+            letter-spacing: 0.04em;
         outline: transparent;
         background-color: transparent;
     border-radius: 4px;
@@ -501,7 +507,11 @@ margin-right: 0;
 .Subscribe-form-btn {
     display: flex;
     align-items: center;
-    gap: 16px;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    min-width: 165px;
+    height: 40px;
     padding: 8px 24px;
     color: #FFF;
         font-size: 16px;
@@ -514,6 +524,7 @@ margin-right: 0;
 
 .Subscribe-form-icon {
     fill: #FFF;
+    margin-left: 16px;
 }
 
 .backdrop {
@@ -605,6 +616,9 @@ pointer-events: initial;
 .form-wrapper {
     margin-bottom: 8px;
 }
+.form-wrapper:nth-child(4) {
+    margin-bottom: 16px;
+}
 
 .modal-btn-icon {
     fill: currentColor;
@@ -616,8 +630,9 @@ pointer-events: initial;
     color: #8E8F99;
         font-size: 12px;
         font-weight: 400;
-        line-height: 1.7;
+        line-height: 1.17;
         letter-spacing: 0.04em;
+
 }
 
 .form-field {
@@ -673,7 +688,12 @@ border-radius: 4px;
     color: currentColor;
 }
 .form-message:focus {
-    border: 1px solid #4D5AE5;}
+    border: 1px solid #4D5AE5;
+}
+
+.form-checkbox {
+    margin-bottom: 24px;
+}
     
 .form-agreement {
     display: block;
