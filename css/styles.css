@@ -475,16 +475,16 @@ margin-right: 0;
         letter-spacing: 0.02em;
 }
 
-.form-Subscribe {
+.form-subscribe {
     display: flex;
     align-items: center;
     gap: 24px;
 
 }
 
-.Subscribe-form-field {}
+.subscribe-form-field {}
 
-.Subscribe-form-input {
+.subscribe-form-input {
     width: 264px;
         height: 40px;
         padding: 8px 16px;
@@ -500,11 +500,11 @@ margin-right: 0;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
-.Subscribe-form-input::placeholder {
+.subscribe-form-input::placeholder {
     color: #FFFFFF;
 }
 
-.Subscribe-form-btn {
+.subscribe-form-btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -522,7 +522,7 @@ margin-right: 0;
             background: #4D5AE5;
 }
 
-.Subscribe-form-icon {
+.subscribe-form-icon {
     fill: #FFF;
     margin-left: 16px;
 }
@@ -717,6 +717,11 @@ fill: #F4F4FD;
     opacity: 1;
 
 }
+.checkbox:focus + .form-agreement > .form-agreement-checkbox
+> .form-agreement-icon {
+    border-color: #4D5AE5;
+}
+
 
 .form-agreement-checkbox {
     display: inline-flex;
