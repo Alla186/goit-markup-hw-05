@@ -522,6 +522,12 @@ margin-right: 0;
             background: #4D5AE5;
 }
 
+.subscribe-form-btn:hover,
+.subscribe-form-btn:focus {
+background-color: #404BBF;
+}
+
+
 .subscribe-form-icon {
     fill: #FFF;
     margin-left: 16px;
@@ -644,6 +650,7 @@ pointer-events: initial;
     height: 40px;
     padding-left: 38px;
 border-radius: 4px;
+  font-size: 12px;
     border: 1px solid rgba(46, 47, 66, 0.40);
     outline: transparent;
     background-color: transparent;
@@ -693,6 +700,7 @@ border-radius: 4px;
 
 .form-checkbox {
     margin-bottom: 24px;
+    
 }
     
 .form-agreement {
@@ -722,11 +730,16 @@ fill: #F4F4FD;
     border-color: #4D5AE5;
 }
 
+.checkbox:focus + .form-agreement > .form-agreement-checkbox {
+
+    border-color: #4D5AE5;
+}
 
 .form-agreement-checkbox {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    margin-right: 8px;
     width: 16px;
     height: 16px;
     border-radius: 2px;
